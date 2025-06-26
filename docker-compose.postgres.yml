@@ -22,7 +22,7 @@ services:
     ports:
       - "${PGADMIN_PORT}:80"
     depends_on:
-      - db
+      - db_postgres
 
 volumes:
   postgres_data:
