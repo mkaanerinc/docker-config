@@ -1,0 +1,20 @@
+# Environment files
+.env
+.env.*
+
+# Docker volumes ve Docker Compose tarafından oluşturulan dosyalar (genellikle yok ama varsa)
+docker-compose.override.yml
+docker-compose.*.override.yml
+
+# Log dosyaları
+*.log
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
+
+# VS Code ayarları (varsa)
+.vscode/
+
+# MacOS sistem dosyaları
+._*
